@@ -1,4 +1,4 @@
-# ch3_11.py
+# ch3_9.py
 from tkinter import *
 
 window = Tk()
