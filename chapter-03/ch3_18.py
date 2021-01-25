@@ -1,16 +1,16 @@
-# ch3_10.py
+# ch3_18.py
 from tkinter import *
 
 window = Tk()
-window.title("ch3_10")
+window.title("ch3_18")
 lab1 = Label(window, text="明志科技大学",
             bg="lightyellow")
 lab2 = Label(window, text="长庚大学",
             bg="lightgreen")
 lab3 = Label(window, text="长庚科技大学",
             bg="lightblue")
-lab1.pack()
-lab2.pack(ipadx=10)
-lab3.pack()
+lab1.pack(side=LEFT, fill=Y)
+lab2.pack(fill=X)
+lab3.pack(fill=X)
 
 window.mainloop()
